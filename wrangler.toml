@@ -1,0 +1,12 @@
+name = "wgi-ai-virtual-office-api"
+main = "src/index.ts"
+compatibility_date = "2026-11-02"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wgi-ai-virtual-office-db"
+database_id = "de6aa397-a115-4c52-865a-12dcc7b56888"
+migrations_dir = "migrations"
+
+[vars]
+APP_ENV = "development"
